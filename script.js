@@ -4,3 +4,8 @@ function toggleMenu(){
     menu.classList.toggle("open");
     icon.classList.toggle("open");
 }   
+
+// Typewriter effect for title
+const titleElement = document.querySelector('.section__text__p2.typewriter');
+const text = titleElement.textContent;
+let index = 0;
