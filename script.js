@@ -40,7 +40,8 @@ document.addEventListener('DOMContentLoaded', function() {
             img: './assets/projekblog.png',
             title: 'Project Blog',
             github: 'https://github.com/Ahmad-FikriA',
-            liveDemo: 'https://intronet69.wordpress.com/'
+            liveDemo: 'https://intronet69.wordpress.com/',
+            projectText: 'A personal blog project using WordPress.'
         },
         {
             img: './assets/webhmif.png',
@@ -90,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
             </div>
         <h2 class="experience-sub-title project-title">${project.title}</h2>
-        <p class="project-text">A project that showcases my skills in web development and AI.</p>
+        <p class="project-text">${project.projectText}</p>
     </div>
         `;
         projectsContainer.insertAdjacentHTML('beforeend', projectCard);
